@@ -161,11 +161,7 @@ A simple weather application built with Python using Tkinter for the graphical u
 
 ---
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## Acknowledgements
 - Tkinter documentation for creating the GUI.
