@@ -1,4 +1,4 @@
-# Python Projects
+# OIBSIP->Python Projects
 
 This repository contains multiple Python projects built with different libraries and frameworks. Below is an overview of the two main projects in this repository: **Random Password Generator** and **BMI Calculator with User Tracking and Visualization**.
 
