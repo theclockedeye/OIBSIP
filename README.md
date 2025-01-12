@@ -1,6 +1,6 @@
-# OIBSIP->Python Projects
+#OIBSIP-> Python Projects
 
-This repository contains multiple Python projects built with different libraries and frameworks. Below is an overview of the two main projects in this repository: **Random Password Generator** and **BMI Calculator with User Tracking and Visualization**.
+This repository contains multiple Python projects built with different libraries and frameworks. Below is an overview of the three main projects in this repository: **Random Password Generator**, **BMI Calculator with User Tracking and Visualization**, and **Weather App**.
 
 ---
 
@@ -114,6 +114,53 @@ This is an advanced Python project to calculate the Body Mass Index (BMI) of use
 
 ---
 
+## 3. Weather App
+
+A simple weather application built with Python using Tkinter for the graphical user interface (GUI). The app allows users to check current weather details by entering a city name. It includes weather icons, unit conversion (Celsius/Fahrenheit), and smooth animations for a better user experience.
+
+### Features:
+- **Current Weather**: Displays current weather details like temperature, humidity, and description.
+- **Weather Icons**: Fetches and displays weather icons based on the weather conditions.
+- **Unit Conversion**: Toggle between Celsius and Fahrenheit for temperature readings.
+- **Error Handling**: Handles errors such as invalid city input or API issues gracefully.
+- **Animated GUI**: Smooth transitions and weather data updates.
+
+### Technologies Used:
+- **Python**: Programming language.
+- **Tkinter**: GUI library for building the application interface.
+- **OpenWeatherMap API**: Fetches weather data (temperature, humidity, weather conditions, etc.).
+- **Pillow (PIL)**: Used to handle and display weather icons.
+- **Requests**: For making HTTP requests to the OpenWeatherMap API.
+
+### Setup Instructions:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/weather-app.git
+    cd weather-app
+    ```
+
+2. Install the required dependencies:
+
+    ```bash
+    pip install requests Pillow
+    ```
+
+3. Replace the `api_key` in the code with your actual OpenWeatherMap API key:
+
+    ```python
+    api_key = "your_actual_api_key_here"  # Replace with your actual API key
+    ```
+
+4. Run the application:
+
+    ```bash
+    python src/app.py
+    ```
+
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -124,6 +171,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Tkinter documentation for creating the GUI.
 - pyperclip library for clipboard functionality in the **Random Password Generator** project.
 - Matplotlib for visualizations in the **BMI Calculator** project.
+- OpenWeatherMap API for fetching weather data in the **Weather App** project.
 
 ---
 
