@@ -1,26 +1,79 @@
-# Advanced Password Generator
+# Advanced Random Password Generator
 
-This is a Python project that generates secure passwords based on user-defined criteria, using a graphical user interface (GUI). The user can select password length, and choose which character sets (uppercase, lowercase, numbers, symbols) to include. The application also includes clipboard integration for easy copying of the generated password.
+This project is an **Advanced Random Password Generator** built using Python and Tkinter for the graphical user interface (GUI). The password generator allows users to specify their password requirements, such as length and character types (letters, digits, symbols). It also ensures that the generated passwords meet security rules and provides an easy way to copy the generated password to the clipboard.
 
-## Features:
-1. **Password Generation**:
-   - Allows users to specify password length and select character sets (uppercase, lowercase, numbers, symbols).
-   - Generates a random, secure password based on the selected criteria.
+## Features
 
-2. **Password Complexity Rules**:
-   - Enforces a password length between 8 and 16 characters.
-   - Allows users to include uppercase, lowercase, digits, and symbols.
+- **Password Length**: Users can define the desired length of the password.
+- **Character Types**: Users can select whether to include:
+  - Uppercase letters
+  - Lowercase letters
+  - Digits
+  - Symbols
+- **Security Rules**: The password generator ensures that the password is secure based on selected character types.
+- **Clipboard Integration**: After generating a password, users can easily copy it to the clipboard for quick use.
+- **Intuitive GUI**: The app features a user-friendly graphical interface built with Tkinter.
 
-3. **Clipboard Integration**:
-   - Users can copy the generated password to the clipboard for easy use.
+## Installation
 
-4. **Graphical User Interface (GUI)**:
-   - A user-friendly interface built with Tkinter.
-   - Input fields for password length and checkboxes to select character sets.
+1. Clone the repository:
 
-## Installation:
+    ```bash
+    git clone https://github.com/yourusername/random-password-generator.git
+    cd random-password-generator
+    ```
 
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository_url>
-   cd Password_Generator
+2. Install the required dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+    *Note: You may need to install `pyperclip` for clipboard functionality. You can install it manually by running:*
+
+    ```bash
+    pip install pyperclip
+    ```
+
+3. Run the application:
+
+    ```bash
+    python main.py
+    ```
+
+## Usage
+
+1. **Enter the password length** in the provided input field.
+2. **Select the character types** (uppercase, lowercase, digits, symbols) you want to include in the password.
+3. Click **Generate Password** to create a random password based on your specifications.
+4. The generated password will appear in the result area.
+5. To copy the password to the clipboard, click the **Copy to Clipboard** button.
+
+## Example
+
+1. Enter length as `12`.
+2. Select **Include Uppercase**, **Include Digits**, and **Include Symbols**.
+3. Click **Generate Password**.
+4. A password like `T7@w3S1bLz0A` will be generated.
+
+## Project Structure
+
+random-password-generator/ │ ├── main.py # Main entry point to run the app ├── ui/ │ ├── gui.py # Tkinter GUI interface │ ├── utils/ │ ├── password_generator.py # Password generation logic and clipboard functionality │ ├── data/ │ ├── password_rules.py # Password length validation │ ├── requirements.txt # Dependencies └── README.md # Project documentation
+
+
+## Dependencies
+
+- `tkinter`: For creating the graphical user interface.
+- `pyperclip`: For clipboard functionality to copy the password.
+- `string`: For handling character sets (letters, digits, symbols).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Tkinter documentation for creating the GUI.
+- pyperclip library for clipboard functionality.
+
+
