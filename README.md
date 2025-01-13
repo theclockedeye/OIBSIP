@@ -1,6 +1,6 @@
-# Python Projects
+#OIBSIP-> Python Projects
 
-This repository contains multiple Python projects built with different libraries and frameworks. Below is an overview of the two main projects in this repository: **Weather App** ,**Random Password Generator** and **BMI Calculator with User Tracking and Visualization**.
+This repository contains multiple Python projects built with different libraries and frameworks. Below is an overview of the two main projects in this repository: **Random Password Generator** and **BMI Calculator with User Tracking and Visualization**.
 
 ---
 
@@ -158,6 +158,9 @@ This is an advanced Python project to calculate the Body Mass Index (BMI) of use
 
 ---
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -165,6 +168,7 @@ This is an advanced Python project to calculate the Body Mass Index (BMI) of use
 - Tkinter documentation for creating the GUI.
 - pyperclip library for clipboard functionality in the **Random Password Generator** project.
 - Matplotlib for visualizations in the **BMI Calculator** project.
+- OpenWeatherMap API for fetching weather data in the **Weather App** project.
 
 ---
 
