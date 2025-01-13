@@ -1,10 +1,54 @@
 # Python Projects
 
-This repository contains multiple Python projects built with different libraries and frameworks. Below is an overview of the two main projects in this repository: **Random Password Generator** and **BMI Calculator with User Tracking and Visualization**.
+This repository contains multiple Python projects built with different libraries and frameworks. Below is an overview of the two main projects in this repository: **Weather App** ,**Random Password Generator** and **BMI Calculator with User Tracking and Visualization**.
 
 ---
 
-## 1. Random Password Generator
+##  1. Weather App
+
+A simple weather application built with Python using Tkinter for the graphical user interface (GUI). The app allows users to check current weather details by entering a city name. It includes weather icons, unit conversion (Celsius/Fahrenheit), and smooth animations for a better user experience.
+
+## Features
+
+- **Current Weather**: Displays current weather details like temperature, humidity, and description.
+- **Weather Icons**: Fetches and displays weather icons based on the weather conditions.
+- **Unit Conversion**: Toggle between Celsius and Fahrenheit for temperature readings.
+- **Error Handling**: Handles errors such as invalid city input or API issues gracefully.
+- **Animated GUI**: Smooth transitions and weather data updates.
+
+## Technologies Used
+
+- **Python**: Programming language.
+- **Tkinter**: GUI library for building the application interface.
+- **OpenWeatherMap API**: Fetches weather data (temperature, humidity, weather conditions, etc.).
+- **Pillow (PIL)**: Used to handle and display weather icons.
+- **Requests**: For making HTTP requests to the OpenWeatherMap API.
+
+## Setup Instructions
+
+### Prerequisites
+
+Make sure you have Python installed on your machine. You can download it from [python.org](https://www.python.org/downloads/).
+
+### Install Dependencies
+
+To install the required libraries, run the following command:
+
+```bash
+pip install requests Pillow
+```
+
+
+api_key = "your_actual_api_key_here"  # Replace with your actual API key
+
+
+python src/app.py
+
+
+
+
+
+## 2. Random Password Generator
 
 This is an **Advanced Random Password Generator** built using Python and Tkinter for the graphical user interface (GUI). The password generator allows users to specify their password requirements, such as length and character types (letters, digits, symbols). It also ensures that the generated passwords meet security rules and provides an easy way to copy the generated password to the clipboard.
 
@@ -48,7 +92,7 @@ This is an **Advanced Random Password Generator** built using Python and Tkinter
 
 ---
 
-## 2. BMI Calculator with User Tracking and Visualization
+## 3. BMI Calculator with User Tracking and Visualization
 
 This is an advanced Python project to calculate the Body Mass Index (BMI) of users, track their weight, height, and BMI over time, and visualize the data in interactive graphs. The application is built using the Tkinter library for the graphical user interface (GUI), Matplotlib for data visualization, and JSON for data storage.
 
@@ -114,9 +158,6 @@ This is an advanced Python project to calculate the Body Mass Index (BMI) of use
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
